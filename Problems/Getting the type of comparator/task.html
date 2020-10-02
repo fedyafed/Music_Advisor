@@ -1,0 +1,33 @@
+<h2>Getting the type of comparator</h2>
+<html>
+ <head></head>
+ <body>
+  <p>You need to implement method <code class="language-java">getComparatorType(Class)</code> in <code class="language-java">ComparatorInspector</code> class. The method should examine provided class and return <a target="_blank" href="https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Type.html" rel="nofollow noopener noreferrer">Type</a> object that corresponds to the type parameter that parameterizes <code class="language-java">Comparable</code> interface the class implements. Consider the example:</p> 
+  <pre><code class="language-java">class MyInt implements Comparable&lt;Integer&gt; {
+    // Implementation omitted 
+}
+
+// Method to implement
+Type type = ComparatorInspector.getComparatorType(MyInt.class);
+
+System.out.println(type.getTypeName());
+// prints: java.lang.Integer since MyInt implements Comparable with Integer parameter type</code></pre> 
+  <p>The method should:</p> 
+  <ul> 
+   <li>Return type parameter for Comparable interface class implements</li> 
+   <li>Return null if Comparable interface does not have type parameter</li> 
+   <li>Should not produce compile-time warnings</li> 
+  </ul> 
+  <p>Additional requirements:</p> 
+  <ul> 
+   <li>Compile-time error should arise if class not implementing Comparable is provided as input value</li> 
+   <li>No 'rawtype' warnings should remain or be suppressed</li> 
+   <li>Method getComparatorType should be generic</li> 
+  </ul> 
+  <p>You are free to correct method's type signature if needed.</p>
+ </body>
+</html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">ComparatorInspector class<br></code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">Well done!</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/10088">Show topic summary</a>

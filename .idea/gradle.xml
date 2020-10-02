@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Music Advisor/task" />
+            <option value="$PROJECT_DIR$/Problems/Boxes are not just objects!" />
+            <option value="$PROJECT_DIR$/Problems/Breakfast Decorator" />
+            <option value="$PROJECT_DIR$/Problems/Coffee Decorator" />
+            <option value="$PROJECT_DIR$/Problems/Complete a class" />
+            <option value="$PROJECT_DIR$/Problems/Complete the eager singleton" />
+            <option value="$PROJECT_DIR$/Problems/Declared fields" />
+            <option value="$PROJECT_DIR$/Problems/Field count" />
+            <option value="$PROJECT_DIR$/Problems/Find the Method" />
+            <option value="$PROJECT_DIR$/Problems/Getting Superclass" />
+            <option value="$PROJECT_DIR$/Problems/Getting the type of comparator" />
+            <option value="$PROJECT_DIR$/Problems/List multiplicator" />
+            <option value="$PROJECT_DIR$/Problems/Packing backeries" />
+            <option value="$PROJECT_DIR$/Problems/Pets and boxes" />
+            <option value="$PROJECT_DIR$/Problems/Pets in boxes" />
+            <option value="$PROJECT_DIR$/Problems/Photocopiers" />
+            <option value="$PROJECT_DIR$/Problems/Pizza Decorator" />
+            <option value="$PROJECT_DIR$/Problems/Quality control system" />
+            <option value="$PROJECT_DIR$/Problems/Retrieve class name" />
+            <option value="$PROJECT_DIR$/Problems/Return empty string when argument is null" />
+            <option value="$PROJECT_DIR$/Problems/Violator" />
+            <option value="$PROJECT_DIR$/Problems/Writing a class" />
+            <option value="$PROJECT_DIR$/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

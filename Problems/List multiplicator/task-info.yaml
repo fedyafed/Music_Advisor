@@ -1,0 +1,17 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: "import java.util.List;\n\n/**\n    Class to modify\n*/\nclass ListMultiplicator\
+    \ {\n\n    /**\n        Repeats original list content provided number of times\
+    \   \n        @param list list to repeat\n        @param n times to repeat, should\
+    \ be zero or greater\n    */\n\tpublic static void multiply(List<?> list, int\
+    \ n) {\n\t\t// Add implementation here\n\t}\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2641
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2641">JetBrains
+    Academy</a></html>
+  time: Sun, 13 Sep 2020 18:03:39 UTC
+record: -1

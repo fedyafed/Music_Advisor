@@ -1,0 +1,39 @@
+<h2>Quality control system</h2>
+<html>
+ <head></head>
+ <body>
+  <p>You are asked to create quality control system in a company that produces and packs Bakery, the snippet of main classes follows:</p> 
+  <pre><code class="language-java">// These and its subclasses should pass quality check
+class Bakery {}
+
+class Cake extends Bakery {}
+
+// And this and other stuff should not
+class Paper {}
+
+// These boxes are used to pack stuff
+interface Box&lt;T&gt; {
+    void put(T item);
+    T get();
+}
+
+// Class you need to work on
+class QualityControl {
+  
+  public static boolean check(List&lt;Box&lt;? extends Bakery&gt;&gt; boxes) {
+      // Add implementation here
+  }
+  
+}</code></pre> 
+  <p>Implement check method in a way it would:</p> 
+  <ul> 
+   <li>Return true if all objects in all boxes belong to class Bakery or its subclasses or list contains no boxes</li> 
+   <li>Return false otherwise, including cases when Box is empty or List contains something that is not Box at all</li> 
+  </ul> 
+  <p>The method shouldn't throw any exceptions.</p>
+ </body>
+</html><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">QualityControl class<br></code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">Well done!</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+<b>Caution</b><br><br>
+You may see errors in your code or execution results due to missing context. Don’t worry about it, just write the solution and press Check.
+<br><br>
+<a href="https://hyperskill.org/learn/step/10088">Show topic summary</a>

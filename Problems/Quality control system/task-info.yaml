@@ -1,0 +1,19 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: "import java.util.List;\n\nclass QualityControl {\n\n    public static boolean\
+    \ check(List<Box<? extends Bakery>> boxes) {\n        // Add implementation here\t\
+    \n    }\n\n}\n\n// Don't change the code below\nclass Bakery { }\n\nclass Cake\
+    \ extends Bakery { }\n\nclass Pie extends Bakery { }\n\nclass Tart extends Bakery\
+    \ { }\n\nclass Paper { }\n\nclass Box<T> {\n\n    private T item;\n\n    public\
+    \ void put(T item) {\n        this.item = item;\n    }\n\n    public T get() {\n\
+    \        return this.item;\n    }\n}"
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/2587
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2587">JetBrains
+    Academy</a></html>
+  time: Sun, 13 Sep 2020 18:54:09 UTC
+record: -1
